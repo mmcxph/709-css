@@ -1,0 +1,12 @@
+/* root:{
+   --bs-light: #6492c1;
+} */
+
+body{
+background-color:lightgray;
+
+}
+
+.bg-light {
+    background-color: #6492c1!important;
+}
