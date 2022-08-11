@@ -81,15 +81,24 @@ p{
     align-items: center;
 }
 
-#video {
+#video{
+    
     margin-top: 86px;
+
+}
+
+#video video{
+    max-width: 720px;
+    min-width: 360px;
+    width: 100%;
+  object-fit: cover;
     }
 
 @media all and (max-width: 1280px) {
-    #video {
+    /* #video {
         margin-top: 174px;
         width: 640px;
-        height: 360px;
+        height: 360px; */
     }
 }
 @media all and (max-width: 650px) {
@@ -104,10 +113,10 @@ p{
         padding-bottom: 20px;
     }
 
-    #video {
+    /* #video {
         margin-top: 404px;
         width: 360px;
-        height: 190px;
+        height: 190px; */
     }
 }
 
