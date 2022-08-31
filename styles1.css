@@ -2,11 +2,14 @@
    --bs-light: #6492c1;
 } */
 
-body{
-background-color:lightgray;
-
+body {
+  background-color: lightgray;
 }
 
 .bg-light {
-    background-color: #6492c1!important;
+  background-color: #6492c1 !important;
 }
+
+/* .h22 {
+  margin-top: 50px;
+} */
